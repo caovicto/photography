@@ -133,6 +133,21 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(136, 136, 136) ;
+    border-radius: 0.2em;
+    border: 0.2em solid rgb(136, 136, 136);
+  }
 @-moz-keyframes spinner {
     0% {
         -moz-transform: rotate(0deg);
