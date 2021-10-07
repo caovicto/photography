@@ -134,7 +134,7 @@ body {
     box-sizing: border-box;
 }
 body::-webkit-scrollbar {
-    width: 0.5em;
+    width: 0.7em;
   }
   body {
     scrollbar-width: thin;
