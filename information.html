@@ -17,17 +17,49 @@ layout: default
 
     <!-- Main -->
     <div id="main">
-        {% for image in site.static_files %}
-        {% if image.path contains 'fulls' %}
-        <article class="thumb">
-            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
-                <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
-                     data-name="{{ image.name }}"/></a>
-            <!--<h2></h2>
-            <p></p>-->
-        </article>
-        {% endif %}
-        {% endfor %}
+        <div id="table-info">
+            <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col" class="title"> Thanks so much for the interest ! </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Session Information</th>
+                    <td>
+                        <b>3-4 hours</b> (around 3:00PM - 7:00PM) for the best lighting at <b>$150</b> <br>
+                        <b>Unlimited</b> outfit changes (no changing tent at shooting location) <br>
+                        I am generally available <b>Thursday to Sunday</b> <br>
+                        Props at request
+                    </td>
+                  </tr>
+                    <tr>
+                      <th scope="row">Location</th>
+                      <td>
+                          Any location within <b>15 miles</b> of <b>Rochester</b> or <b>East Lansing</b> <br>
+                          Multiple locations with an additional travel fee
+                        </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Collection</th>
+                      <td>
+                          <b>300-500 final UNEDITED JPEGs</b> from the shoot shared in a google drive folder<br>
+                          Raw NEFs free upon request <br>
+                          Photo editing with an additional fee upon request
+                      </td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Photo Rights</th>
+                        <td>
+                            You are <b>free to print or distribute</b> the photos, though I appreciate it if you reference me <br>
+                            I will request your permission first if I post the photos anywhere public 
+                        </td>
+                    </tr>
+                </tbody>
+              </table>
+        </div>
     </div>
 
     <!-- Footer -->
